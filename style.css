@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+color: white;
+background-color: blue;
+text-align: center;
+
+
+}
+.container {
+    background-image: url("https://2ndyearresult2024.pk/wp-content/uploads/2024/08/2nd-Year-Result-Online.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+display: flex;
+justify-content: center;
+height: 100vh;
+margin-top: 30px;
+}
+
+.design
+{
+    backdrop-filter: blur(8px);
+    /* background-color: red; */
+padding: 12px 150px 12px 150px    ;
+height: 90vh;
+display: flex;
+flex-direction: column;
+border: 2px black solid;
+border-radius: 15px;
+
+}
+
+input{
+margin-bottom: 18px;
+height: 28px;
+width: 220px;
+border-radius: 15px;
+border: black 1px solid;
+padding: 5px;
+font-size: 18px;
+background-color: transparent;
+}
+input:focus{
+outline: none;
+border:  rgb(13, 13, 238) 1px solid;
+transition: 0.5s;
+
+}
+
+button{
+height: 29px;
+background-color: rgb(13, 13, 238);
+border: none;
+border-radius: 15px;
+color: white;
+font-size: 18px;
+
+}
+button:hover{
+background-color: rgb(57, 57, 245);
+transition: 0.2s;
+
+
+
+}
+
+#full-data {
+
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 4px;
+}
