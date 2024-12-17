@@ -26,6 +26,12 @@ function check() {
     "data1"
   ).innerHTML = `Your Total Percentage Is ${percentage}%`;
 
+  document.getElementById("sub1").value = "";
+  document.getElementById("sub2").value = "";
+  document.getElementById("sub3").value = "";
+  document.getElementById("sub4").value = "";
+  document.getElementById("sub5").value = "";
+
   if (percentage >= 90) {
     document.getElementById(
       "data2"
